@@ -1,4 +1,4 @@
-baseURL: 'https://mon2org.github.io/'
+baseURL: 'https://mon.1o0.jp/'
 languageCode: "ja"
 defaultContentLanguage: "ja"
 hasCJKLanguage: true
@@ -12,6 +12,11 @@ menu:
     title: '読書倶楽部'
     url: /reading/
     weight: 0
+
+params:
+  social:
+  - id: github
+    name: mon2org
 
 markup:
   goldmark:
