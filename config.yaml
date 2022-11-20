@@ -1,0 +1,19 @@
+baseURL: 'http://example.org/'
+languageCode: "ja"
+defaultContentLanguage: "ja"
+hasCJKLanguage: true
+title: '問学研究会'
+theme:  ["github.com/Mitrichius/hugo-theme-anubis"]
+publishDir: "docs"
+menu:
+  main:
+  - identifier: reading
+    name: '読書倶楽部'
+    title: '読書倶楽部'
+    url: /reading/
+    weight: 0
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true 

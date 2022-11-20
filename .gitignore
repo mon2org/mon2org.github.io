@@ -1,0 +1,30 @@
+# .gitignore
+# Ignore All
+*
+!*/
+
+# Allowlist
+!.git/*
+!.gitignore
+!.gitattributes
+!*.c
+!*.cpp
+!*.h
+!*.js
+!*.py
+!*.sh
+!*.json
+!*.toml
+!*.yml
+!*.yaml
+!*.html
+!*.css
+!*.md
+!*.txt
+!*.tsv
+!*.csv
+!*.svg
+!*.pdf
+
+!go.sum
+!go.mod
