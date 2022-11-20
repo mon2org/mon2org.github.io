@@ -1,10 +1,10 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://mon2org.github.io/'
 languageCode: "ja"
 defaultContentLanguage: "ja"
 hasCJKLanguage: true
 title: '問学研究会'
 theme:  ["github.com/Mitrichius/hugo-theme-anubis"]
-publishDir: "docs"
+
 menu:
   main:
   - identifier: reading
