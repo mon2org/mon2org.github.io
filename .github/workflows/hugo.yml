@@ -41,6 +41,9 @@ jobs:
         with:
           submodules: true 
           fetch-depth: 1
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
