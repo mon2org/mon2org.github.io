@@ -7,16 +7,23 @@ theme:  ["github.com/Mitrichius/hugo-theme-anubis"]
 
 menu:
   main:
-  - identifier: reading
+  - identifier: bookclub
     name: '読書倶楽部'
     title: '読書倶楽部'
-    url: /reading/
+    url: /bookclub/
     weight: 0
 
 params:
   social:
   - id: github
     name: mon2org
+
+module:
+  imports:
+   - path: github.com/mon2org/bookclub
+     mounts:
+     - source: .
+       target: content/bookclub
 
 markup:
   goldmark:

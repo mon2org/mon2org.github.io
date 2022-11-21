@@ -1,2 +1,4 @@
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196 h1:TzahMQaJXpezO9D2iQHnifGWPUn+41IWgYNBg/wNtQE=
 github.com/Mitrichius/hugo-theme-anubis v0.0.0-20220725170731-d4ba47cd2196/go.mod h1:FKD3NbdsQzL+cXsC3x99XD/t/Rd5EyhDlNBAxQhULbo=
+github.com/mon2org/bookclub v0.0.0-20221120213300-3f3a88f73dd5 h1:5APan7ulfBaPfIzJP01cSgbzVO6TF9tbGce3JiOGlsc=
+github.com/mon2org/bookclub v0.0.0-20221120213300-3f3a88f73dd5/go.mod h1:d3RWgx8sEbyl3wom2G/v/CHop93Ain/l7m7MecKtGlQ=

@@ -1,4 +1,0 @@
-[submodule "content/bookclub"]
-	path = content/bookclub
-	url = git@github.com:mon2org/bookclub.git
-	branch = main
